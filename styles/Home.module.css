@@ -1,0 +1,37 @@
+.mainContainer {
+  display: flex;
+  min-height: 75vh;
+  flex-direction: column;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.headerContainer {
+  min-height: 10vmax;
+  padding: 0 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.headerText {
+  font-size: 55px;
+  font-family: monospace;
+  font-weight: 900;
+}
+.querySection {
+  width: 25vmax;
+  height: 75vh;
+}
+.dataSection {
+  width: 50vw;
+  height: 75vh;
+}
+.graphSection {
+  width: 25vmax;
+  height: 75vh;
+}

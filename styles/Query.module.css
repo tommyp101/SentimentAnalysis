@@ -1,0 +1,18 @@
+.contentContainer {
+  padding: 0 0.5rem;
+  flex-direction: column;
+  flex: 1;
+  border-right: 1px solid black;
+  height: 100%;
+}
+.headerContainer {
+  padding: 0rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  border-width: 1px 0;
+}
+.headerText {
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: 100;
+}
